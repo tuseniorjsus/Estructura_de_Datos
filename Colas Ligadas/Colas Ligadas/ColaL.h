@@ -11,7 +11,7 @@ class ColaL
 public:
 	ColaL(); 
 	bool IsEmpty(); 
-	bool IsFull(); 
+
 	void Queue(string); 
 	void Dequeue(); 
 	void Show(); 
