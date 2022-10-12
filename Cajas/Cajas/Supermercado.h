@@ -2,26 +2,27 @@
 
 #include <iostream>
 #include <time.h>
+#include <string>
 using namespace std; 
 #define MAXICAJAS 3; 
 struct Caja
 {
 	string turno; 
-	bool status; 
+	Caja* siguiente; 
 
 };
 class Supermercado
 {
 public: 
-	bool CheckStat();
-	void RandomCustomer(); 
-	void Queue(); 
-	void Dequeue(); 
-	void IsEmpty(); 
+	Supermercado(); 
+	void Queue(string); 
+	string Dequeue(); 
+	bool IsEmpty(); 
 	void IsFull(); 
+	void Show(); 
 private: 
 
-	Caja* Inicio; 
+	Caja* Inicio, *Final, *Temp; 
 	
 
 };

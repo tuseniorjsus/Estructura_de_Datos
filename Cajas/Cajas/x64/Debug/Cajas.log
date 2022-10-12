@@ -1,0 +1,7 @@
+﻿  Source.cpp
+C:\Users\lauri\source\Estructura de Datos\Estructura_de_Datos\Cajas\Cajas\Source.cpp(6,12): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+C:\Users\lauri\source\Estructura de Datos\Estructura_de_Datos\Cajas\Cajas\Source.cpp(56,42): warning C4838: la conversión de 'int' en 'char' requiere una conversión de restricción
+C:\Users\lauri\source\Estructura de Datos\Estructura_de_Datos\Cajas\Cajas\Source.cpp(56,71): warning C4305: 'inicializando': truncamiento de 'int' a 'char'
+C:\Users\lauri\source\Estructura de Datos\Estructura_de_Datos\Cajas\Cajas\Source.cpp(56,42): warning C4309: 'inicializando': truncamiento de valor constante
+C:\Users\lauri\source\Estructura de Datos\Estructura_de_Datos\Cajas\Cajas\Source.cpp(57,6): warning C4101: 'r': variable local sin referencia
+  Cajas.vcxproj -> C:\Users\lauri\source\Estructura de Datos\Estructura_de_Datos\Cajas\x64\Debug\Cajas.exe
