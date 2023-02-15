@@ -78,3 +78,8 @@ void Supermercado::Show()
 		}
 	}
 }
+
+void Supermercado::IsFull()
+{
+	cout << "Not a valid entrance" << endl; 
+}
