@@ -5,7 +5,7 @@ Supermercado::Supermercado()
 	Final = NULL;
 	Temp = NULL;
 }
-bool Supermercado::IsEmpty()
+bool Supermercado::IsEmpty()// to check if I can take items from my queue
 {
 	if (Inicio == NULL)
 		return true;

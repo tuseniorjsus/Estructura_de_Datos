@@ -26,24 +26,7 @@ void menu() // impresion de menu principal
 	cout << "2.Ver filas para cajas" << endl; 
 	cout << "3.Salir" << endl; 
 }
-//void LlenarCajas(Supermercado C20, Supermercado C25, char arr[10])
-//{
-//	int r; 
-//	string turn; 
-//	for (int i = 0; i < 5; i++)
-//	{
-//		turn = CreateTurn(arr); 
-//		r = rand() % 3-1;
-//		if (r == 1)
-//		{
-//			C20.Queue(turn); 
-//		}
-//		else
-//		{
-//			C25.Queue(turn); 
-//		}
-//	}
-//}
+
 int main()
 {
 	string turn,et, replat; 
